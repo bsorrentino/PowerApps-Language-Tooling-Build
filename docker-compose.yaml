@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  pasopa:
+    build: .
+    container_name: pasopa
+    volumes:
+      - ./:/app
