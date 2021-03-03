@@ -3,7 +3,7 @@ version: '3.7'
 services:
   pasopa:
     build: .
-    image: docker.pkg.github.com/bsorrentino/powerapps-language-tooling-build/pasopa:0.18
+    image: docker.pkg.github.com/bsorrentino/powerapps-language-tooling-build/pasopa:0.19
 #   image: powerapps-language-tooling:0.18
     container_name: pasopa
     volumes:
