@@ -15,6 +15,8 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 COPY --from=build-env /PowerApps-Language-Tooling/bin/Debug .
 #WORKDIR /PASopa
 
+RUN /PASopa/PASopa
+
 RUN mkdir /app
 
 VOLUME /app
